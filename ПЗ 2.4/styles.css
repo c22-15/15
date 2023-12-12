@@ -1,0 +1,119 @@
+/* Основні стилі для сторінки */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+/* Стилі для заголовка */
+.header {
+  background-color: #f15b29;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Стилі для навігації */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Стилі для вмісту */
+.content {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для списку новин */
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content ul li {
+  margin-bottom: 10px;
+}
+
+.content a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+}
+
+/* Стилі для форми зворотнього зв'язку */
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+  color: #333;
+}
+
+.form button[type="submit"] {
+  background-color: #f15b29;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Стилі для таблиці з даними */
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f15b29;
+  color: #fff;
+}
+
+/* Змінюємо колір для парних рядків таблиці */
+.table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
